@@ -4,8 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <!-- Icon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="styles.css">
+
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,15 +24,42 @@
   </style>
 </head>
 <body>
+  <section class="main-container">
+    <article class="card-container">
+      <div class="article-information">
+        <div class="general-info">
+          <p class="card-title">Get <span>insights</span> that help your business grow.</p>
+          <p class="card-description">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.</p>
+        </div>
+        <div class="numbers-of-info">
+          <div>
+            <p>10k+</p>
+            <p>COMPANIES</p>
+          </div>
+          <div>
+            <p>314</p>
+            <p>TEMPLATES</p>
+          </div>
+          <div>
+            <p>12m+</p>
+            <p>QUERIES</p>
+          </div>
+        </div>
+      </div>
+      <div class="article-img">
+        <img src="./images/image-header-desktop.jpg" alt="Tecnology image">
+      </div>
+    </article>
+  </section>
 
-  Get insights that help your business grow.
+  
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+  
 
-  10k+ companies
-  314 templates
-  12m+ queries
+   
+   
+   
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
